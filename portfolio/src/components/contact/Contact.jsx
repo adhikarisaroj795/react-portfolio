@@ -21,6 +21,7 @@ const Contact = () => {
       [name]: value,
     });
   };
+  axios.defaults.withCredentials = true;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
