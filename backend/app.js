@@ -7,7 +7,7 @@ require("dotenv").config();
 
 //handling cors policy
 const corsOptions = {
-  origin: ["https://react-portfolio-navy-sigma.vercel.app/"],
+  origin: [""],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
