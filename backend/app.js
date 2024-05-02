@@ -7,7 +7,7 @@ require("dotenv").config();
 
 //handling cors policy
 const corsOptions = {
-  origin: [""],
+  origin: ["https://react-portfolio-frontend.vercel.app/"],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
