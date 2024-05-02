@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const contactMERoutes = `https://react-portfolio-navy-sigma.vercel.app/`;
+const contactMERoutes = `https://react-portfolio-navy-sigma.vercel.app`;
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
